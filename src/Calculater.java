@@ -220,7 +220,9 @@ public class Calculater {
         });
     }
 
+
     public static void main(String[] args) {
+        System.out.println("Welcome");
         JFrame frame = new JFrame("Calculater");
         frame.setContentPane(new Calculater().Calculater);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
